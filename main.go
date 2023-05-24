@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	var strs = []string{"abc", "abcd", "abcd"}
-	res := easy.LongestCommonPrefix(strs)
+	slice := []int{1, 1, 2}
+	res := easy.RemoveDuplicates(slice)
 	fmt.Println("result: ", res)
 }
